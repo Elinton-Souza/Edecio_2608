@@ -1,0 +1,64 @@
+#root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  width: 99%;
+}
+
+img {
+  width: 950px;
+  height: 400px;
+}
+
+h1{
+  color: brown;
+}
+
+h2{
+  color: rgb(145, 39, 39);
+}
+
+h3{
+  color: rgb(31, 31, 30);
+}
+
+.cabecalho{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.status-aprovado {
+  background-color: black;
+  color: green;
+  font-weight: bold;
+}
+.status-exame {
+  background-color: black;
+  color: orange;
+  font-weight: bold;
+}
+.status-reprovado {
+  background-color: black;
+  color: red;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*EXERCÍCIO:
+- Elaborar um programa que contenha 3 campos de formulário: nome e 2 notas de um aluno, além dos botões Calcular e Novo Aluno. Valide o preenchimento dos campos. Exiba em destaque o nome do aluno, a média e a situação:
+  - <4 : Reprovado 
+  - Entre 4 e <6 : Em exame 
+  - >=6: Aprovado 
+  
+  Modifique a cor das mensagens de acordo com a situação do aluno.
