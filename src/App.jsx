@@ -21,7 +21,7 @@ function App() {
     } else if (mediaCalc >= 4 && mediaCalc < 6) {
       statusAtual = "Em Exame";
     } else {
-      statusAtual = "Aprovado";
+      statusAtual = "Approvado";
     }
     setResposta1(
       `${nome}, você tirou ${nota1} na primeira e ${nota2} na segunda.`
